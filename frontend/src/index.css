@@ -16,6 +16,11 @@ a.active hr
     font-style: normal;
     }
 
+
+    /*To hide all scroll bars*/
+    ::-webkit-scrollbar{
+        display: none;
+    }
 /* For the mini web part */
 
 @media (max-width:640px)
