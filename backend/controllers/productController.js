@@ -50,7 +50,7 @@ const addProduct = async (req, res) => {
 // controller for list products
 const listProducts = async (req, res) => {
     try {
-        const products = await productModel.findOne({}); // get all data from the schema
+        const products = await productModel.find({}); // get all data from the schema
         res.json({ success: true, products })
     } catch (error) {
         console.log(error);

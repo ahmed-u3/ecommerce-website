@@ -10,7 +10,7 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const backendUrl = import.meta.env.VITE_BACKEND_URL
-
+export const currency = "$";
 const App = () => {
 
   // For this logic we check the token if the user is already here the token will be the same else he'll be log out which is the empty string
