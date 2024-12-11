@@ -62,7 +62,7 @@ const Collection = () => {
 
   useEffect(() => {
     handleFilterAndSort();
-  }, [category, subCategory, sortType ,search ,showSearch]); // Run when any filter or sort criteria changes
+  }, [category, subCategory, sortType ,search ,showSearch,products]); // Run when any filter or sort criteria changes
 
   return (
     <div className="flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t">

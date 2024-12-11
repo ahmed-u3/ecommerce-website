@@ -12,7 +12,6 @@ const LatestCollection = () => {
             setLatestProducts(products.slice(0,10))
             // Latest 10 Products
         },[])
-    console.log(products)
     return (
         <div className='my-10 '>
             <div className='text-center py-8 text-3xl'>
